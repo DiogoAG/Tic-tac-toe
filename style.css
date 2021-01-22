@@ -54,8 +54,10 @@ body {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(3, 1fr);
-    grid-gap: 15px;
-    margin-top: 50px;
+    /* grid-gap: 15px;
+    margin-top: 50px; */
+    margin-top: 25px;
+    grid-gap: 10px;
 }
 
 .game-cell {
@@ -64,8 +66,10 @@ body {
     justify-content: center;
     align-items: center;
     cursor: pointer;
-    height: 200px;
-    width: 200px;
+    /* height: 200px;
+    width: 200px; */
+    height: 150px;
+    width: 150px;
 }
 
 /* .game-grid {
